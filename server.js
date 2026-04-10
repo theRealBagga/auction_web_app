@@ -19,7 +19,7 @@ const server = http.createServer(app);
 
 // ✅ attach socket.io
 const io = new Server(server, {
-  cors: { origin: "https://www.bidhiveauction.vercel.app" }
+  cors: { origin: "https://bidhiveauction.vercel.app" }
 });
 
 // ✅ make io available everywhere
